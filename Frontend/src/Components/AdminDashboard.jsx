@@ -11,7 +11,7 @@ const AdminDashboard = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get('http://localhost:3000/admin');
+      const response = await axios.get('https://social-media-n5ce.onrender.com/admin');
       setUsers(response.data); // Assuming response.data is an array of users
     } catch (err) {
       setError('Failed to fetch records. Please try again later.');
