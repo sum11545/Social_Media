@@ -17,7 +17,7 @@ const Form = () => {
     });
 
     try {
-      const response = await fetch("http://localhost:3000/", {
+      const response = await fetch("https://social-media-n5ce.onrender.com/", {
         method: "POST",
         body: formData,
       });
