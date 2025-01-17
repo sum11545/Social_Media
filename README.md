@@ -13,7 +13,7 @@ A Cloudinary or AWS S3 account if opting for cloud storage for images.
 
 #Steps 
 
-1) git clone 
+1) git clone https://github.com/sum11545/Social_Media.git
 2) cd Frontend
 3) cd Backend  
 4) npm install 
